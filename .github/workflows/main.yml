@@ -19,7 +19,7 @@ jobs:
     - name: Create artifact directory
       run:  mkdir -p path/to/artifact
     - name: Copy the executable to the artifact directory
-      run:  copy ./build/PhysicsGame/Release/PhysicsGame.exe path/to/artifact
+      run:  copy .\Build/PhysicsGame\Release\PhysicsGame.exe .path\to\artifact
     - name: Upload artifact
       uses: actions/upload-artifact@v4
     - name: Hello
